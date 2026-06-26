@@ -1,897 +1,176 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title data-react-helmet="true"></title>
-    <meta
-      data-react-helmet="true"
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <meta data-react-helmet="true" name="title" content="" />
-    <meta data-react-helmet="true" name="description" />
-    <meta data-react-helmet="true" name="author" />
-    <meta data-react-helmet="true" name="keywords" />
-    <meta data-react-helmet="true" property="og:image" content="" />
-    <meta data-react-helmet="true" property="og:url" content="" />
-    <style data-styled="" data-styled-version="6.3.11">
-      @layer properties,theme,base,components,commonComponents,commonComponentsUtils,utilities; /*!sc*/
-      html {
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-        overscroll-behavior-x: none;
-        -webkit-text-size-adjust: 100%;
-        text-size-adjust: 100%;
-      } /*!sc*/
-      body {
-        margin: 0;
-      } /*!sc*/
-      a {
-        text-decoration: none;
-      } /*!sc*/
-      p span > a[href^="tel:"] {
-        color: inherit;
-      } /*!sc*/
-      p {
-        margin: 0;
-      } /*!sc*/
-      *,
-      *:before,
-      *:after {
-        box-sizing: inherit;
-      } /*!sc*/
-      * {
-        -webkit-font-smoothing: antialiased;
-      } /*!sc*/
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        margin: 0;
-        font-weight: normal;
-      } /*!sc*/
-      section h1 {
-        margin: 0;
-      } /*!sc*/
-      @layer base {
-        button,
-        input {
-          margin: 0;
-          font-family: unset;
-        }
-      } /*!sc*/
-      ul {
-        margin: 0;
-      } /*!sc*/
-      .fixed {
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 320px;
-        height: 50px;
-        background: red;
-        -webkit-backface-visibility: hidden;
-      } /*!sc*/
-      data-styled.g1[id="sc-global-ekDKAZ1"] {
-        content: "sc-global-ekDKAZ1,";
-      } /*!sc*/
-      .lpheAx {
-        position: absolute;
-        z-index: 0;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        filter: blur(0px);
-        background-image: none;
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .lpheAx {
-          background-image: none;
-        }
-      } /*!sc*/
-      data-styled.g5[id="sc-fqkvVO"] {
-        content: "lpheAx,";
-      } /*!sc*/
-      .kNSexm {
-        position: relative;
-        width: 100%;
-      } /*!sc*/
-      data-styled.g6[id="sc-dcJsrX"] {
-        content: "kNSexm,";
-      } /*!sc*/
-      .fELZDM {
-        position: relative;
-        text-align: initial;
-        margin: 0px 0px 0px 0px;
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .fELZDM {
-          margin-top: 0px;
-          margin-right: 0px;
-          margin-bottom: 0px;
-          margin-left: 0px;
-        }
-      } /*!sc*/
-      data-styled.g34[id="sc-koXPm"] {
-        content: "fELZDM,";
-      } /*!sc*/
-      .erHDzb {
-        display: flex;
-        flex-direction: column;
-        grid-column-start: 1;
-        grid-column-end: 13;
-        align-self: flex-start;
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .erHDzb {
-          align-self: unset;
-          width: 100%;
-          grid-column-start: 1;
-          grid-column-end: 12;
-          padding-left: 0;
-          padding-right: 0;
-        }
-      } /*!sc*/
-      data-styled.g73[id="sc-ggpjZP"] {
-        content: "erHDzb,";
-      } /*!sc*/
-      .iwlJcP {
-        display: grid;
-        position: relative;
-        justify-content: space-between;
-        grid-template-columns: repeat(12, 1fr);
-        column-gap: 20px;
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        background-image: none;
-        background-size: initial;
-        background-position: 50% 50%;
-        background-repeat: repeat;
-        background-attachment: initial;
-        column-gap: unset !important;
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .iwlJcP {
-          padding-top: 5px;
-          padding-right: 5px;
-          padding-bottom: 5px;
-          padding-left: 5px;
-        }
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .iwlJcP {
-          display: flex;
-          flex-direction: column;
-          grid-template-columns: auto;
-          background-image: none;
-        }
-      } /*!sc*/
-      data-styled.g74[id="sc-cmaqme"] {
-        content: "iwlJcP,";
-      } /*!sc*/
-      .bxkcLg {
-        display: flex;
-        position: relative;
-        padding-top: 40px;
-        padding-right: 40px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        background-image: none;
-        background-size: initial;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-        background-attachment: initial;
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .bxkcLg {
-          padding-top: 5px;
-          padding-right: 5px;
-          padding-bottom: 5px;
-          padding-left: 5px;
-        }
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .bxkcLg {
-          background-image: none;
-        }
-      } /*!sc*/
-      data-styled.g75[id="sc-kAkpmZ"] {
-        content: "bxkcLg,";
-      } /*!sc*/
-      .kwztHR {
-        max-width: 100%;
-        width: 100%;
-        margin: auto;
-      } /*!sc*/
-      @media only screen and (max-width: 800px) {
-        .kwztHR {
-          max-width: initial;
-        }
-      } /*!sc*/
-      data-styled.g76[id="sc-gFVvzo"] {
-        content: "kwztHR,";
-      } /*!sc*/
-      .ccJQKy {
-        display: flex;
-        width: 100%;
-        height: 100%;
-        min-height: 100vh;
-        position: relative;
-      } /*!sc*/
-      data-styled.g77[id="sc-brPLxv"] {
-        content: "ccJQKy,";
-      } /*!sc*/
-      .dbmvVZ {
-        min-height: 20px;
-        text-align: center;
-      } /*!sc*/
-      data-styled.g370[id="sc-ijtseC"] {
-        content: "dbmvVZ,";
-      } /*!sc*/
-    </style>
-    <link data-react-helmet="true" rel="canonical" href="" />
-    <link
-      rel="stylesheet"
-      href="https://d3fit27i5nzkqh.cloudfront.net/sales/page.939200a8968e11d1.css"
-    />
-    <style>
-      :host,
-      :root {
-        --fa-family-brands: "Font Awesome 7 Brands";
-        --fa-font-brands: normal 400 1em/1 var(--fa-family-brands);
-      }
-      @font-face {
-        font-family: "Font Awesome 7 Brands";
-        font-style: normal;
-        font-weight: 400;
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-brands-400.woff2);
-      }
-      :host,
-      :root {
-        --fa-family-duotone: "Font Awesome 7 Duotone";
-        --fa-font-duotone: normal 900 1em/1 var(--fa-family-duotone);
-        --fa-style-family-duotone: var(--fa-family-duotone);
-      }
-      @font-face {
-        font-family: "Font Awesome 7 Duotone";
-        font-style: normal;
-        font-weight: 900;
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-duotone-900.woff2);
-      }
-      :host,
-      :root {
-        --fa-font-light: normal 300 1em/1 var(--fa-family-classic);
-      }
-      @font-face {
-        font-family: "Font Awesome 7 Pro";
-        font-style: normal;
-        font-weight: 300;
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-light-300.woff2);
-      }
-      :host,
-      :root {
-        --fa-font-regular: normal 400 1em/1 var(--fa-family-classic);
-      }
-      @font-face {
-        font-family: "Font Awesome 7 Pro";
-        font-style: normal;
-        font-weight: 400;
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-regular-400.woff2);
-      }
-      :host,
-      :root {
-        --fa-font-solid: normal 900 1em/1 var(--fa-family-classic);
-      }
-      @font-face {
-        font-family: "Font Awesome 7 Pro";
-        font-style: normal;
-        font-weight: 900;
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-solid-900.woff2);
-      }
-      :host,
-      :root {
-        --fa-family-classic: "Font Awesome 7 Pro";
-        --fa-font-thin: normal 100 1em/1 var(--fa-family-classic);
-        --fa-style-family-classic: var(--fa-family-classic);
-      }
-      @font-face {
-        font-family: "Font Awesome 7 Pro";
-        font-style: normal;
-        font-weight: 100;
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-thin-100.woff2);
-      }
-      @font-face {
-        font-family: "Font Awesome 5 Brands";
-        font-display: block;
-        font-weight: 400;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-brands-400.woff2)
-          format("woff2");
-      }
-      @font-face {
-        font-family: "Font Awesome 5 Pro";
-        font-display: block;
-        font-weight: 900;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-solid-900.woff2)
-          format("woff2");
-      }
-      @font-face {
-        font-family: "Font Awesome 5 Pro";
-        font-display: block;
-        font-weight: 400;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-regular-400.woff2)
-          format("woff2");
-      }
-      @font-face {
-        font-family: "Font Awesome 5 Pro";
-        font-display: block;
-        font-weight: 300;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-light-300.woff2)
-          format("woff2");
-      }
-      @font-face {
-        font-family: "Font Awesome 5 Duotone";
-        font-display: block;
-        font-weight: 900;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-duotone-900.woff2)
-          format("woff2");
-      }
-      @font-face {
-        font-family: "FontAwesome";
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-solid-900.woff2)
-          format("woff2");
-      }
-      @font-face {
-        font-family: "FontAwesome";
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-brands-400.woff2)
-          format("woff2");
-      }
-      @font-face {
-        font-family: "FontAwesome";
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-regular-400.woff2)
-          format("woff2");
-        unicode-range: u+f003, u+f006, u+f014, u+f016-f017, u+f01a-f01b, u+f01d,
-          u+f022, u+f03e, u+f044, u+f046, u+f05c-f05d, u+f06e, u+f070,
-          u+f087-f088, u+f08a, u+f094, u+f096-f097, u+f09d, u+f0a0, u+f0a2,
-          u+f0a4-f0a7, u+f0c5, u+f0c7, u+f0e5-f0e6, u+f0eb, u+f0f6-f0f8, u+f10c,
-          u+f114-f115, u+f118-f11a, u+f11c-f11d, u+f133, u+f147, u+f14e,
-          u+f150-f152, u+f185-f186, u+f18e, u+f190-f192, u+f196, u+f1c1-f1c9,
-          u+f1d9, u+f1db, u+f1e3, u+f1ea, u+f1f7, u+f1f9, u+f20a, u+f247-f248,
-          u+f24a, u+f24d, u+f255-f25b, u+f25d, u+f271-f274, u+f278, u+f27b,
-          u+f28c, u+f28e, u+f29c, u+f2b5, u+f2b7, u+f2ba, u+f2bc, u+f2be,
-          u+f2c0-f2c1, u+f2c3, u+f2d0, u+f2d2, u+f2d4, u+f2dc;
-      }
-      @font-face {
-        font-family: "FontAwesome";
-        font-display: block;
-        src: url(https://d3fit27i5nzkqh.cloudfront.net/assets/fontawesome/7.2.0/webfonts/fa-v4compatibility.woff2)
-          format("woff2");
-        unicode-range: u+f041, u+f047, u+f065-f066, u+f07d-f07e, u+f080, u+f08b,
-          u+f08e, u+f090, u+f09a, u+f0ac, u+f0ae, u+f0b2, u+f0d0, u+f0d6, u+f0e4,
-          u+f0ec, u+f10a-f10b, u+f123, u+f13e, u+f148-f149, u+f14c, u+f156,
-          u+f15e, u+f160-f161, u+f163, u+f175-f178, u+f195, u+f1f8, u+f219,
-          u+f27a;
-      }
-      .fal {
-        --_fa-family: var(
-          --fa-family,
-          var(--fa-style-family, "Font Awesome 7 Pro")
-        );
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        display: var(--fa-display, inline-block);
-        font-family: var(--_fa-family);
-        font-feature-settings: normal;
-        font-style: normal;
-        font-synthesis: none;
-        font-variant: normal;
-        font-weight: var(--fa-style, 900);
-        line-height: 1;
-        text-align: center;
-        text-rendering: auto;
-        width: var(--fa-width, 1.25em);
-      }
-      .fal:before {
-        content: var(--fa) / "";
-      }
-      .fal {
-        --fa-family: var(--fa-family-classic);
-      }
-      .fal {
-        --fa-style: 300;
-      }
-      .fa-chevron-circle-left {
-        --fa: "\f137";
-      }
-      .fa-chevron-circle-right {
-        --fa: "\f138";
-      }
-      .fas {
-        --_fa-family: var(
-          --fa-family,
-          var(--fa-style-family, "Font Awesome 7 Pro")
-        );
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        display: var(--fa-display, inline-block);
-        font-family: var(--_fa-family);
-        font-feature-settings: normal;
-        font-style: normal;
-        font-synthesis: none;
-        font-variant: normal;
-        font-weight: var(--fa-style, 900);
-        line-height: 1;
-        text-align: center;
-        text-rendering: auto;
-        width: var(--fa-width, 1.25em);
-      }
-      .fas:before {
-        content: var(--fa) / "";
-      }
-      .fas {
-        --fa-family: var(--fa-family-classic);
-      }
-      .fas {
-        --fa-style: 900;
-      }
-      .fa-chevron-down {
-        --fa: "\f078";
-      }
-      .fa-chevron-left {
-        --fa: "\f053";
-      }
-      .fad {
-        --_fa-family: var(
-          --fa-family,
-          var(--fa-style-family, "Font Awesome 7 Pro")
-        );
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        display: var(--fa-display, inline-block);
-        font-family: var(--_fa-family);
-        font-feature-settings: normal;
-        font-style: normal;
-        font-synthesis: none;
-        font-variant: normal;
-        font-weight: var(--fa-style, 900);
-        line-height: 1;
-        text-align: center;
-        text-rendering: auto;
-        width: var(--fa-width, 1.25em);
-      }
-      .fad:before {
-        content: var(--fa) / "";
-      }
-      .fad:after {
-        content: var(--fa) / "";
-        font-feature-settings: "ss01";
-      }
-      .fad {
-        --fa-family: var(--fa-family-duotone);
-        --fa-style: 900;
-        position: relative;
-        letter-spacing: normal;
-      }
-      .fad:before {
-        position: absolute;
-        color: var(--fa-primary-color, currentColor);
-        opacity: var(--fa-primary-opacity, 1);
-      }
-      .fad:after {
-        color: var(--fa-secondary-color, currentColor);
-      }
-      .fad:after {
-        opacity: var(--fa-secondary-opacity, 0.4);
-      }
-      .fa-chevron-right {
-        --fa: "\f054";
-      }
-      .fa-chevron-up {
-        --fa: "\f077";
-      }
-      .fa-circle {
-        --fa: "\f111";
-      }
-      .far {
-        --_fa-family: var(
-          --fa-family,
-          var(--fa-style-family, "Font Awesome 7 Pro")
-        );
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        display: var(--fa-display, inline-block);
-        font-family: var(--_fa-family);
-        font-feature-settings: normal;
-        font-style: normal;
-        font-synthesis: none;
-        font-variant: normal;
-        font-weight: var(--fa-style, 900);
-        line-height: 1;
-        text-align: center;
-        text-rendering: auto;
-        width: var(--fa-width, 1.25em);
-      }
-      .far:before {
-        content: var(--fa) / "";
-      }
-      .far {
-        --fa-family: var(--fa-family-classic);
-      }
-      .far {
-        --fa-style: 400;
-      }
-      .fa-clock {
-        --fa: "\f017";
-      }
-      .fa-eye {
-        --fa: "\f06e";
-      }
-      .fa-eye-slash {
-        --fa: "\f070";
-      }
-      .fa {
-        --_fa-family: var(
-          --fa-family,
-          var(--fa-style-family, "Font Awesome 7 Pro")
-        );
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        display: var(--fa-display, inline-block);
-        font-family: var(--_fa-family);
-        font-feature-settings: normal;
-        font-style: normal;
-        font-synthesis: none;
-        font-variant: normal;
-        font-weight: var(--fa-style, 900);
-        line-height: 1;
-        text-align: center;
-        text-rendering: auto;
-        width: var(--fa-width, 1.25em);
-      }
-      .fa:before {
-        content: var(--fa) / "";
-      }
-      .fa-times {
-        --fa: "\f00d";
-      }
-    </style>
-    <meta property="og:type" content="website" />
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "1540742314253056");
-      fbq("track", "PageView");
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=1540742314253056&amp;ev=PageView&amp;noscript=1"
-    /></noscript>
-  </head>
-  <body>
-    <div id="app">
-      <div class="sc-brPLxv ccJQKy">
-        <div class="sc-dcJsrX kNSexm">
-          <div class="sc-fqkvVO lpheAx"></div>
-          <div class="sc-koXPm fELZDM">
-            <section id="section-759dbe3e" class="sc-kAkpmZ bxkcLg">
-              <div width="100%" class="sc-gFVvzo kwztHR">
-                <div class="sc-koXPm fELZDM">
-                  <div id="row-24bca29b" class="sc-cmaqme iwlJcP">
-                    <div size="12" class="sc-ggpjZP erHDzb">
-                      <div class="sc-koXPm fELZDM">
-                        <div id="rawhtml-beb34a7c" class="sc-ijtseC dbmvVZ">
-                          <link
-                            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
-                            rel="stylesheet"
-                          />
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hand Writing Project Work</title>
 
-                          <style>
-                            * {
-                              box-sizing: border-box;
-                              margin: 0;
-                              padding: 0;
-                            }
-
-                            body {
-                              font-family: "Poppins", sans-serif;
-                              background: linear-gradient(
-                                135deg,
-                                #0b6eb8,
-                                #18c13d
-                              );
-                            }
-
-                            /* Main Container */
-
-                            .sio-main-container {
-                              display: flex;
-                              justify-content: center;
-                              align-items: center;
-                              min-height: 100vh;
-                              padding: 20px;
-                            }
-
-                            /* Card */
-
-                            .sio-landing-wrap {
-                              max-width: 520px;
-                              width: 100%;
-                              text-align: center;
-                              background: #fff;
-                              padding: 30px 25px;
-                              border-radius: 18px;
-                              box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-                            }
-
-                            /* Pulse Animation */
-
-                            @keyframes pulse-blue {
-                              0% {
-                                box-shadow: 0 0 0 0 rgba(11, 110, 184, 0.7);
-                              }
-                              70% {
-                                box-shadow: 0 0 0 18px rgba(11, 110, 184, 0);
-                              }
-                              100% {
-                                box-shadow: 0 0 0 0 rgba(11, 110, 184, 0);
-                              }
-                            }
-
-                            /* Button */
-
-                            .sio-btn {
-                              display: block;
-                              width: 100%;
-                              background: linear-gradient(
-                                45deg,
-                                #0b6eb8,
-                                #0a8be0
-                              );
-                              color: #fff;
-                              padding: 16px;
-                              font-size: 16px;
-                              font-weight: 700;
-                              border-radius: 50px;
-                              text-decoration: none;
-                              margin: 15px 0;
-                              transition: 0.3s;
-                              animation: pulse-blue 2s infinite;
-                            }
-
-                            .sio-btn:hover {
-                              transform: scale(1.05);
-                              background: linear-gradient(
-                                45deg,
-                                #095c9d,
-                                #0b6eb8
-                              );
-                            }
-
-                            /* Profile */
-
-                            .sio-profile {
-                              margin: 20px 0;
-                            }
-
-                            .sio-avatar {
-                              width: 110px;
-                              height: 110px;
-                              margin: auto;
-                              border-radius: 50%;
-                              overflow: hidden;
-                              border: 4px solid #fff;
-                              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-                            }
-
-                            .sio-avatar img {
-                              width: 100%;
-                              height: 100%;
-                              object-fit: cover;
-                            }
-
-                            .sio-headline {
-                              margin-top: 12px;
-                              font-size: 24px;
-                              font-weight: 800;
-                              color: #18c13d;
-                            }
-
-                            /* Features */
-
-                            .sio-features {
-                              margin-top: 10px;
-                            }
-
-                            .sio-feature {
-                              display: flex;
-                              justify-content: center;
-                              align-items: center;
-                              gap: 10px;
-                              margin: 8px 0;
-                            }
-
-                            .sio-feature p {
-                              font-weight: 600;
-                              color: #333;
-                            }
-
-                            .sio-tick {
-                              width: 24px;
-                              height: 24px;
-                              border-radius: 50%;
-                              background: #eaf7ea;
-                              display: flex;
-                              align-items: center;
-                              justify-content: center;
-                              font-weight: 800;
-                              color: #18c13d;
-                              font-size: 14px;
-                            }
-
-                            /* Highlight */
-
-                            .sio-highlight {
-                              margin: 18px 0;
-                              padding: 10px;
-                              background: #f1f8ff;
-                              border-radius: 10px;
-                              font-weight: 700;
-                              color: #0b6eb8;
-                            }
-
-                            /* Disclaimer */
-
-                            .sio-disclaimer {
-                              margin-top: 20px;
-                              font-size: 11px;
-                              color: #777;
-                              line-height: 1.4;
-                            }
-
-                            /* Mobile */
-
-                            @media (max-width: 480px) {
-                              .sio-btn {
-                                font-size: 14px;
-                                padding: 14px;
-                              }
-
-                              .sio-headline {
-                                font-size: 21px;
-                              }
-
-                              .sio-feature p {
-                                font-size: 13px;
-                              }
-                            }
-                          </style>
-
-                          <div class="sio-main-container">
-                            <div class="sio-landing-wrap">
-                              <a
-                                class="sio-btn"
-                                href="https://t.me/+Ev32RPxhaCsxYjk1"
-                                target="_blank"
-                              >
-                                JOIN TELEGRAM CHANNEL 🚀
-                              </a>
-
-                              <div class="sio-profile">
-                                <div class="sio-avatar">
-                                  <img src="./book.png" />
-                                </div>
-
-                                <div class="sio-headline">
-                                  Agarwal book publication
-                                </div>
-                              </div>
-
-                              <div class="sio-features">
-                                <div class="sio-feature">
-                                  <div class="sio-tick">✓</div>
-                                  <p>
-                                    Simple Writing Work – No Experience Needed
-                                  </p>
-                                </div>
-
-                                <div class="sio-feature">
-                                  <div class="sio-tick">✓</div>
-                                  <p>Earn ₹15,000 – ₹30,000 Per Month</p>
-                                </div>
-
-                                <div class="sio-feature">
-                                  <div class="sio-tick">✓</div>
-                                  <p>Work From Home • Flexible Timing</p>
-                                </div>
-
-                                <div class="sio-highlight">
-                                  Limited Seats Available – Apply Today! 🚀
-                                </div>
-                              </div>
-
-                              <a
-                                class="sio-btn"
-                                href="https://t.me/+Ev32RPxhaCsxYjk1"
-                                target="_blank"
-                              >
-                                JOIN TELEGRAM CHANNEL 🚀
-                              </a>
-
-                              <div class="sio-disclaimer">
-                                <b style="color: #0a7a3a">Note:</b> This is
-                                project-based work. Earnings depend on
-                                performance and submission quality.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div>
 <!-- Meta Pixel Code -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
+s.parentNode.insertBefore(t,s);
+}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '3969886963313265');
+
+fbq('init', '2448008269052564');
 fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=3969886963313265&ev=PageView&noscript=1"
-/></noscript>
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2448008269052564&ev=PageView&noscript=1"/>
+</noscript>
 <!-- End Meta Pixel Code -->
-    </div>
-  </body>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:linear-gradient(135deg,#0b6eb8,#18c13d);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+.card{
+background:#fff;
+width:100%;
+max-width:520px;
+border-radius:18px;
+padding:30px 25px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+.btn{
+display:block;
+width:100%;
+padding:16px;
+margin:18px 0;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+font-size:17px;
+color:#fff;
+background:linear-gradient(45deg,#0b6eb8,#0a8be0);
+transition:.3s;
+animation:pulse 2s infinite;
+}
+.btn:hover{transform:scale(1.04)}
+@keyframes pulse{
+0%{box-shadow:0 0 0 0 rgba(11,110,184,.7)}
+70%{box-shadow:0 0 0 18px rgba(11,110,184,0)}
+100%{box-shadow:0 0 0 0 rgba(11,110,184,0)}
+}
+.avatar{
+width:110px;
+height:110px;
+border-radius:50%;
+overflow:hidden;
+margin:20px auto 15px;
+border:4px solid #fff;
+box-shadow:0 4px 15px rgba(0,0,0,.25);
+}
+.avatar img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+h1{
+color:#18c13d;
+font-size:28px;
+margin-bottom:20px;
+}
+.feature{
+display:flex;
+align-items:center;
+justify-content:flex-start;
+margin:12px 0;
+font-weight:600;
+color:#333;
+}
+.tick{
+width:26px;
+height:26px;
+border-radius:50%;
+background:#eaf7ea;
+color:#18c13d;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-right:10px;
+font-weight:bold;
+}
+.highlight{
+margin:20px 0;
+padding:12px;
+background:#eef7ff;
+border-radius:10px;
+color:#0b6eb8;
+font-weight:bold;
+}
+.note{
+margin-top:20px;
+font-size:12px;
+color:#666;
+line-height:1.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<a class="btn"
+href="https://t.me/+HdDOCRTq0wk3NmI9"
+target="_blank"
+onclick="fbq('track','Subscribe');">
+JOIN TELEGRAM CHANNEL 🚀
+</a>
+
+<div class="avatar">
+<img src="./vishvbook.png" alt="Profile">
+</div>
+
+<h1>HAND WRITING PROJECT WORK 📚</h1>
+
+<div class="feature">
+<div class="tick">✓</div>
+<div>Simple Writing Work – No Experience Needed</div>
+</div>
+
+<div class="feature">
+<div class="tick">✓</div>
+<div>Earn ₹15,000 – ₹30,000 Per Month</div>
+</div>
+
+<div class="feature">
+<div class="tick">✓</div>
+<div>Work From Home • Flexible Timing</div>
+</div>
+
+<div class="highlight">
+Limited Seats Available – Apply Today! 🚀
+</div>
+
+<a class="btn"
+href="https://t.me/+HdDOCRTq0wk3NmI9"
+target="_blank"
+onclick="fbq('track','Subscribe');">
+JOIN TELEGRAM CHANNEL 🚀
+</a>
+
+<div class="note">
+<b>Note:</b> This is project-based work. Earnings depend on performance and submission quality.
+</div>
+
+</div>
+
+</body>
 </html>
